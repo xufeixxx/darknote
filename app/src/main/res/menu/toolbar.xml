@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/change_view_list"
+        android:title="列表视图"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/change_view_stag"
+        android:title="宫格视图"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_some_viewitem"
+        android:title="批量删除"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="bottom"
+    >
+
+    <ImageButton
+        android:id="@+id/note_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FAFAFA"
+        android:src="@drawable/ic_assignment_black_18dp"/>
+    <ImageButton
+        android:id="@+id/sth_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FAFAFA"
+        android:src="@drawable/ic_check_black_18dp"/>
+
+</LinearLayout>
